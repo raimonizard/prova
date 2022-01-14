@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finestraambcolors.HelloController">
+   <center>
+      <Button mnemonicParsing="false" onMouseClicked="#onHelloButtonClick" text="Gerard" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <Button mnemonicParsing="false" text="Hola que tal" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <CheckBox mnemonicParsing="false" text="CheckBox" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
